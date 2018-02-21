@@ -1,4 +1,5 @@
 <?php
+//Code
 if(isset($_POST)){
 $p = new PostData();
 $p->title = $_POST['title'];
