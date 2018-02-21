@@ -1,5 +1,5 @@
 <?php
-
+//módulos de control
 include "controller/Core.php";
 include "controller/View.php";
 include "controller/Module.php";
