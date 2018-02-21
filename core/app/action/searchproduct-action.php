@@ -1,4 +1,5 @@
 <?php if(isset($_GET["product"]) && $_GET["product"]!=""):?>
+//acción de búsqueda 
 	<?php
 	$products = ProductData::getLike($_GET["product"]);
 	if(count($products)>0){
