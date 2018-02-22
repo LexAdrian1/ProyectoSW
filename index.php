@@ -17,7 +17,7 @@ Core::$root="";
 
 // Mostar consultas SQL. Linea de Codigo
 // Core::$debug_sql = true;
-
+//Hola
 $lb = new Lb();
 $lb->start();
 
